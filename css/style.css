@@ -1,116 +1,143 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html {
-    font-size: 100%;
-}
-
-section {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-
-h1 {
- /* H1 styling */
-
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 900;
-font-size: 4.5rem;
-line-height: 100%;
-text-transform: uppercase;
-color: white;
-margin: 0;
-}
-
-h2 {
-  /* H2 styling */
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 3rem;
-line-height: 100%;
+  font-size: 16px;
 }
 
 body {
-/* body styling */
+  background-color: black;
+}
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 1rem;
-line-height: 150%;
-color: white;
-background-color: black;
-margin: 10%;
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 0px;
+}
+
+h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 100%;
+}
+
+p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  color: white;
 }
 
 .primary-btn {
-/* Button_D */
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.1875rem;
-    letter-spacing: 5%;
-    padding: 1rem 2rem;
-    background-color: white;
-    border-style: none;
-    border-radius: 0.5rem;
-
-/* Midnight Blue */
-
-    color: #1A2B3C;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: 5%;
+  padding: 1rem 2rem;
+  background-color: white;
+  border-style: none;
+  border-radius: 0.5rem;
+  color: #1A2B3C;
 }
 
 .secondary-btn {
-    background: linear-gradient(260.97deg, #FF1B6B 7.03%, #45CAFF 130.94%);
-    position: relative;
-    display: block;
-    height: 3.2em;
-    min-width: 8em;
-    border-radius: 5px;
-    border-style: none;
-    color: inherit;
+  background: linear-gradient(260.97deg, #FF1B6B 7.03%, #45CAFF 130.94%);
+  position: relative;
+  display: block;
+  height: 3.2em;
+  min-width: 8em;
+  border-radius: 5px;
+  border-style: none;
+  color: inherit;
+}
+
+section {
+  margin-top: 64px;
+  margin-bottom: 64px;
 }
 
 .textbox {
-    width: 50%;
+  width: 50%;
 }
 
 .box {
-    width: 100%;
-    padding: 2rem;
-    background: #750137;
-    border-radius: 1rem;
+  width: 100%;
+  padding: 2rem;
+  background: #750137;
+  border-radius: 1rem;
+  margin: auto;
 }
 
 .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    align-items: center;
-    background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+
+  width: 960px;
+  height: 35px;
 }
 
-/* navigation links */
-  .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* navigation links hover effect */
-  .navbar a:hover {
-    color: #e247de;
-  }
-  
-  /* active navigation link */
-  .navbar a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+}
+
+.navbar a {
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border: 0.125rem;
+  background-color: black;
+  border-color: #FF1B6B;
+  border-style: solid;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: 5%;
+}
+
+.navbar a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #FF1B6B;
+}
