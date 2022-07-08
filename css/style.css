@@ -1,27 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+html {
+    font-size: 100%;
+}
+
 h1 {
  /* H1 */
 
 font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 900;
-font-size: 72px;
-line-height: 87px;
+font-size: 4.5rem;
+line-height: 100%;
 text-transform: uppercase;
 color: white;
+margin: 0;
 }
 
 body {
-background-color: #1A2B3C;
-;
-
 /* Body */
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
+font-size: 1rem;
 line-height: 150%;
 color: white;
+background-color: black;
+margin: 10%;
 }
+
+.primary-btn {
+/* Button_D */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    letter-spacing: 5%;
+    padding: 1rem 2rem;
+    background-color: white;
+    border-style: none;
+    border-radius: 0.5rem;
+
+/* Midnight Blue */
+
+    color: #1A2B3C;
+}
+
+.secondary-btn {
+    background: linear-gradient(260.97deg, #FF1B6B 7.03%, #45CAFF 130.94%);
+    position: relative;
+    display: block;
+    height: 3.2em;
+    min-width: 8em;
+    border-radius: 5px;
+    border-style: none;
+    color: inherit;
+}
+
+.textbox {
+    width: 50%;
+}
+
+.box {
+    width: 100%;
+    padding: 2rem;
+    background: #750137;
+    border-radius: 1rem;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+}
+
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    color: #e247de;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
