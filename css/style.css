@@ -4,8 +4,13 @@ html {
     font-size: 100%;
 }
 
+section {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 h1 {
- /* H1 */
+ /* H1 styling */
 
 font-family: 'Inter', sans-serif;
 font-style: normal;
@@ -17,8 +22,17 @@ color: white;
 margin: 0;
 }
 
+h2 {
+  /* H2 styling */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 3rem;
+line-height: 100%;
+}
+
 body {
-/* Body */
+/* body styling */
 
 font-family: 'Inter';
 font-style: normal;
@@ -76,9 +90,10 @@ margin: 10%;
     top: 0;
     width: 100%;
     align-items: center;
+    background-color: black;
 }
 
-  /* Style the links inside the navigation bar */
+/* navigation links */
   .navbar a {
     float: left;
     display: block;
@@ -89,12 +104,12 @@ margin: 10%;
     font-size: 17px;
   }
   
-  /* Change the color of links on hover */
+  /* navigation links hover effect */
   .navbar a:hover {
     color: #e247de;
   }
   
-  /* Add an active class to highlight the current page */
+  /* active navigation link */
   .navbar a.active {
     background-color: #04AA6D;
     color: white;
