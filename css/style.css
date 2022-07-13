@@ -20,12 +20,17 @@ body {
   .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
     padding: 0px;
+    top: 0px;
+    
   
     width: 540px;
-    height: 35px;
+    height: 56px;
   }
 }
 
@@ -41,10 +46,15 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
     padding: 0px;
+    background-color: black;
   
     width: 768px;
-    height: 35px;
+    height: 56px;
+    margin: 0 auto;
   }
 }
 
@@ -56,15 +66,28 @@ body {
   }
 
   .navbar {
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0px;
-  
-    width: 992px;
-    height: 35px;
+    position: fixed;
+    top: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    z-index: 1;
+    background-color: rgba(37, 42, 51, 0.95);;
   }
+}
+
+.nav-box {
+  width: 992px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
 }
 
 .box-wrapper {
@@ -82,21 +105,6 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: black;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 h1 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -110,7 +118,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 3rem;
@@ -183,21 +191,11 @@ section {
   margin: auto;
 }
 
-.navigation {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 24px;
-}
-
 .navbar a {
   padding: 1rem 2rem;
   border-radius: 0.5rem;
   border: 0.125rem;
-  background-color: black;
-  border-color: #FF1B6B;
+  border-color: white;
   border-style: solid;
   font-family: 'Inter';
   font-style: normal;
@@ -205,18 +203,19 @@ section {
   font-size: 1rem;
   line-height: 1.1875rem;
   letter-spacing: 5%;
+  color: white;
 }
 
-.navbar a:link {
+.nav-item a:link {
   color: white;
   text-decoration: none;
 }
 
-.navbar a:hover {
-  background-color: #FF1B6B;
+.nav-item a:hover {
+  border-color: #FF1B6B;
 }
 
-.navbar a:visited {
+.nav-item a:visited {
   color: white;
   text-decoration: none;
 }
