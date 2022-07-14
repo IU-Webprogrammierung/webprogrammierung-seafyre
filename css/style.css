@@ -120,7 +120,7 @@ body {
   flex-wrap: wrap;
   width: 100%;
   box-sizing: border-box;
-  gap: 16px;
+  gap: 32px;
   padding: 2rem;
   backdrop-filter: blur(24px) saturate(100%);
   -webkit-backdrop-filter: blur(24px) saturate(100%);
@@ -182,7 +182,7 @@ p {
 
 .hero {
   width: 100%;
-  height: 100vh;
+  height: auto;
   overflow: hidden;
   position: relative;
   background: linear-gradient(to left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
@@ -194,6 +194,7 @@ p {
   top: 0;
   left: 0;
   width: 100%;
+  height: auto;
  }
 
  .hero .hero-text {
@@ -331,4 +332,91 @@ section {
 .nav-item a:visited {
   color: white;
   text-decoration: none;
+}
+
+.card2 {
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  gap: 16px;
+}
+
+.card2 div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  border-radius: 16px;
+  border-style: none;
+  border-width: 0.5px;
+  border-color: white;
+  gap: 8px;
+   overflow: hidden;
+}
+
+.image-wrapper {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 16px;
+  position: relative;
+  z-index: 2;
+}
+
+
+.image-wrapper div {
+  transition: all .5s ease;
+}
+
+.image-wrapper div:hover {
+  transform: scale(1.2);
+}
+
+#bild1 {
+  background-color: black;
+  background-image: url('../images/header.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+#bild2 {
+  background-color: black;
+  background-image: url('../images/header.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+#bild3 {
+  background-color: black;
+  background-image: url('../images/header.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+#bild4 {
+  background-color: black;
+  background-image: url('../images/header.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 16px;
 }
