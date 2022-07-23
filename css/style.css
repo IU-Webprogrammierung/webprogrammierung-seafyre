@@ -14,7 +14,7 @@ body {
   width: 100%;
   margin: 0;
   /* background-image: linear-gradient(135deg, #c11e38 10%, #220b34 100%); */
-  background-color: white;
+  background-color: #F7F8FC;
 }
 
 /* Smaller Viewport */
@@ -34,7 +34,7 @@ body {
     position: fixed;
     top: 0px;
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 12px;
     z-index: 1;
     background-color: rgba(37, 42, 51, 0.95);
   }
@@ -67,7 +67,7 @@ body {
     position: fixed;
     top: 0px;
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 12px;
     z-index: 1;
     background-color: rgba(37, 42, 51, 0.95);
   }
@@ -99,7 +99,7 @@ body {
     position: fixed;
     top: 0px;
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 12px;
     z-index: 1;
     background-color: rgba(37, 42, 51, 0.95);
   }
@@ -136,7 +136,7 @@ h1 {
   font-size: 4.5rem;
   line-height: 100%;
   text-transform: uppercase;
-  color: black;
+  color: white;
   letter-spacing: 5%;
   margin: 0;
 }
@@ -147,7 +147,7 @@ h2 {
   font-weight: 700;
   font-size: 3rem;
   line-height: 100%;
-  color: black;
+  color: #173446;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
@@ -159,7 +159,7 @@ h3 {
   font-weight: 700;
   font-size: 2.25rem;
   line-height: 100%;
-  color: black;
+  color: #173446;
 }
 
 h4 {
@@ -168,7 +168,7 @@ h4 {
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 1.8125rem;
-  color: black;
+  color: #173446;
 }
 
 h5 {
@@ -177,10 +177,18 @@ h5 {
   font-weight: 500;
   font-size: 1.125rem;
   line-height: 100%;
-  color: black;
+  color: #173446;
 }
 
-p {
+.card h5 {
+  color: #173446;
+}
+
+.hero-text h3 {
+  color: white;
+}
+
+.wrapper p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 200;
@@ -247,10 +255,6 @@ p {
   align-items: flex-start;
   justify-content: center;
   width: 100%;
-  padding: 16px;
-  border-radius: 16px;
-  border-style: solid;
-  border-width: 0.5px;
   border-color: black;
   gap: 8px;
 }
@@ -325,7 +329,7 @@ section {
   padding: 1rem 2rem;
   border-radius: 0.5rem;
   border: 0.125rem;
-  border-color: black;
+  border-color: white;
   border-style: solid;
   font-family: 'Inter';
   font-style: normal;
@@ -363,12 +367,11 @@ section {
   align-items: flex-start;
   justify-content: center;
   width: 100%;
-  background-color: #f6f6f6;
+  background: #FFFFFF;
+  border: 1px solid #DFE0EB;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
   padding: 48px;
-  border-radius: 16px;
-  border-style: none;
-  border-width: 0.5px;
-  border-color: black;
   gap: 8px;
   overflow: hidden;
 }
@@ -463,7 +466,7 @@ section {
 
 .skills img {
   width: 64px;
-  margin-bottom: 24px;;
+  margin-bottom: 24px;
 }
 
 .skills h4 {
@@ -527,14 +530,14 @@ section {
   padding: 32px;
 }
 
-.footer-box a, p, li {
+.footer-box a, p, li, h5 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   
-  color: black;
+  color: white;
 }
 
 .footer-column {
