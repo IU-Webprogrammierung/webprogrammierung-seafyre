@@ -1,1 +1,1 @@
-Dies ist die Erklärung für das Projekt.
+Dieses Repository enthält den Entwurf einer eigenen Website über Interesse und Eigenschaften meiner Person mithilfe von HTML & CSS. Flexbox wurde genutzt, um die Sections und Divs mit einem sinnvollen, responsiveren Layout auszustatten.
