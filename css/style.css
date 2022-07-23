@@ -246,7 +246,7 @@ h5 {
   display: flex;
   align-content: space-between;
   justify-content: center;
-  gap: 16px;
+  gap: 32px;
 }
 
 .card div {
@@ -263,7 +263,7 @@ h5 {
   display: flex;
   align-content: space-between;
   justify-content: center;
-  gap: 16px;
+  gap: 32px;
 }
 
 .primary-btn {
@@ -288,7 +288,6 @@ h5 {
   background: #FFFFFF;
   border-radius: 8px;
 }
-
 .primary-btn:link {
   text-decoration: none;
 }
@@ -369,7 +368,6 @@ section {
   width: 100%;
   background: #FFFFFF;
   border: 1px solid #DFE0EB;
-  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
   padding: 48px;
   gap: 8px;
@@ -483,10 +481,10 @@ section {
   margin: 0;
   list-style: none;
   display: flex;
-    
   justify-content: space-around;
   flex-flow: row wrap;
   align-items: stretch;
+  gap: 32px;
 }
 
 
@@ -497,15 +495,17 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
+  border-radius: 8px;
 }
 
 .smaller {
   flex-grow: 1;
-  padding: 16px;
+  gap: 16px;
 }
 
 .smaller h3 {
-  display: inline-flex
+  display: inline-flex;
+  margin-bottom: 16px;
 }
 
 .footer {
